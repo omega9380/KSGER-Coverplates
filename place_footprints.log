@@ -1,0 +1,13 @@
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 378:Plugin executed on: 'win32'
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 379:Plugin executed with python version: '3.9.10 (main, Feb 11 2022, 04:18:11) [MSC v.1928 64 bit (AMD64)]'
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 380:KiCad build version: (6.0.4)
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 381:Plugin version: 1.2.3
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 382:Frame repr: <wx._core.Frame object at 0x0000029550040160>
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 133:Footprint REF** does not have Sheetfile property, it will not be considered for placement. Most likely it is only in layout
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H4 on root level
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H2 on root level
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H1 on root level
+04-28 13:49:21 com_github_MitjaNemec_PlaceFootprints.place_footprints 148:Footprint H3 on root level
+04-28 13:49:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 570:Reference designator is: REF**
+04-28 13:49:24 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 571:Reference number is: 
