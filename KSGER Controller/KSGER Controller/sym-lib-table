@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "KSGER Controller Parts")(type "KiCad")(uri "${KIPRJMOD}/KSGER Controller Parts.kicad_sym")(options "")(descr ""))
+)
