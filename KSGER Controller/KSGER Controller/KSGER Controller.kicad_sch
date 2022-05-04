@@ -2952,8 +2952,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dea4ea2c-ab1c-449b-a247-3f71d3cc4894)
   )
-  (text "NOTE:\nC12 AND D3 ARE MODIFICATIONS\nOF THE ORIGINAL KSGER DESIGN\nADDED BY MINSTORM88\n\nTHE FOLLOWING REFERENCES ARE DIFFERENT\nON THIS DESIGN FROM MINDSTORM88'S DESIGN.\nMINDSTORM88'S REFERENCE IS ON THE LEFT:\n\nR12A - R12\nR12B - R16\nR12C - R17\nR1B  - R15\nRX   - R18"
-    (at 247.65 280.67 0)
+  (text "NOTES:\n\nC12 AND D3 ARE MODIFICATIONS\nOF THE ORIGINAL KSGER DESIGN\nADDED BY MINSTORM88\n\nTHE FOLLOWING REFERENCES ARE DIFFERENT\nON THIS DESIGN FROM MINDSTORM88'S DESIGN.\nMINDSTORM88'S REFERENCE IS ON THE LEFT:\n\nR12A - R12\nR12B - R16\nR12C - R17\nR1B  - R15\nRX   - R18\n\nR10 - THERE ARE 3 RESISTORS MARKED AS R10 ON\nTHE ORIGINAL BOARD.  TO STOP KICAD FROM THROWING\nAN ANNOTATION ERROR, I HAVE RENAMED TWO OF \nTHEM TO R19 AND R20."
+    (at 233.68 279.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e940658f-9c18-43fa-b920-792a9c97dbcc)
   )
@@ -3373,7 +3373,7 @@
   (symbol (lib_id "Device:R") (at 109.22 227.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1c3992b6-8267-4680-adab-d2ce2dfdb302)
-    (property "Reference" "R10" (id 0) (at 106.68 229.87 90)
+    (property "Reference" "R20" (id 0) (at 106.68 229.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 109.22 229.87 90)
@@ -3433,7 +3433,7 @@
   (symbol (lib_id "Device:R") (at 104.14 227.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 27d91a52-75c3-47e1-bf8e-a246027d2e7b)
-    (property "Reference" "R10" (id 0) (at 101.6 229.87 90)
+    (property "Reference" "R19" (id 0) (at 101.6 229.87 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 104.14 229.87 90)
@@ -4697,12 +4697,6 @@
     (path "/8aaae4b6-c7cc-4119-a509-fcefcc344db3"
       (reference "R9") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/1c3992b6-8267-4680-adab-d2ce2dfdb302"
-      (reference "R10") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/27d91a52-75c3-47e1-bf8e-a246027d2e7b"
-      (reference "R10") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/3eff7e40-9026-4e04-9f87-df1243540b0f"
       (reference "R10") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -4730,6 +4724,12 @@
     (path "/08308340-f6b9-428d-ae6e-19db0c667910"
       (reference "R18") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/27d91a52-75c3-47e1-bf8e-a246027d2e7b"
+      (reference "R19") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/1c3992b6-8267-4680-adab-d2ce2dfdb302"
+      (reference "R20") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/f14c38dc-3541-4bf1-bafb-f86ba702358a"
       (reference "SW1") (unit 1) (value "ENCODER") (footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm")
     )
@@ -4743,7 +4743,7 @@
       (reference "U3") (unit 1) (value "SGM8551") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/484b5dcd-a371-4568-b6e2-0bf747f30fdf"
-      (reference "U4") (unit 1) (value "24LC08") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm")
+      (reference "U4") (unit 1) (value "24LC08") (footprint "Package_SO:SOP-8_3.9x4.9mm_P1.27mm")
     )
     (path "/135f0285-24f7-4de4-affa-68f14431ec1e"
       (reference "U6") (unit 1) (value "L78L08_SOT89") (footprint "Package_TO_SOT_SMD:SOT-89-3")
