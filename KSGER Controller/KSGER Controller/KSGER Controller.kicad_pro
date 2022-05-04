@@ -329,7 +329,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "KSGER Controller Parts Library"
+    ],
     "pinned_symbol_libs": [
       "KSGER Controller Parts"
     ]
