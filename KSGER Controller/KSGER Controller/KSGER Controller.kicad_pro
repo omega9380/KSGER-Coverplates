@@ -330,7 +330,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "KSGER Controller Parts"
+    ]
   },
   "meta": {
     "filename": "KSGER Controller.kicad_pro",
