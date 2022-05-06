@@ -2758,7 +2758,7 @@
   (gr_text "BATTERY" (at 103.886 111.506) (layer "F.SilkS") (tstamp dfaadae1-0b59-496d-b249-4cf664ed91ad)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "REV 1.0" (at 192.278 116.332) (layer "F.SilkS") (tstamp dff2e01c-3328-42c8-ab04-381f4262ccad)
+  (gr_text "REV 2.0" (at 192.278 116.332) (layer "F.SilkS") (tstamp dff2e01c-3328-42c8-ab04-381f4262ccad)
     (effects (font (size 1 1) (thickness 0.12)))
   )
   (gr_text "+" (at 189.992 92.71) (layer "F.SilkS") (tstamp eabf3dad-d7ba-4c82-8fd7-84858d0fd99f)
