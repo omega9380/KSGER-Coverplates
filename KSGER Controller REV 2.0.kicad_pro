@@ -348,7 +348,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KSGER Controller.kicad_pro",
+    "filename": "KSGER Controller REV 2.0.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -379,10 +379,9 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "24v Power",
         "nets": [
           "+24V",
-          "+3V3",
           "Net-(C12-Pad2)",
           "Net-(D2-Pad1)",
           "Net-(R14-Pad2)",
@@ -392,6 +391,26 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.75,
         "via_diameter": 1.2,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "nets": [
+          "GND"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
+        "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
       }
